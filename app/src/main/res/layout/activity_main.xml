@@ -38,13 +38,15 @@
             android:id="@+id/btn_them"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Thêm"/>
+            android:text="Thêm"
+            android:onClick="xlthem"/>
 
         <Button
             android:id="@+id/btn_xoa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Xóa"/>
+            android:text="Xóa"
+            android:onClick="xlxoa"/>
 
         <Button
             android:id="@+id/btn_sua"
